@@ -75,7 +75,6 @@ tags = [
 
 [crate.winsafe]
 name = "WinSafe"
-description = "Win32 GUI and related APIs in safe, idiomatic Rust."
 tags = [
   "bindings",
   "winapi",
@@ -94,7 +93,6 @@ tags = [
 skip-crates-io = true
 name = "Slint"
 repo = "https://github.com/slint-ui/slint"
-description = "Slint is a toolkit to efficiently develop fluid graphical user interfaces for any display: embedded devices and desktop applications. It comes with a fast OpenGL renderer, a designer-friendly markup language and is written in Rust."
 tags = [
   "proc-macro",
   "winit",
@@ -121,7 +119,6 @@ tags = [
 ]
 
 [crate.egui]
-description = "Highly portable immediate mode GUI library in pure Rust"
 tags = [
   "immediate",
 ]
@@ -162,7 +159,6 @@ tags = [
 ]
 
 [crate.fltk]
-description = "The FLTK crate is a crossplatform lightweight gui library which can be linked to statically to produce small, self-contained and fast binaries"
 tags = [
   "bindings",
   "fltk",
@@ -170,7 +166,6 @@ tags = [
 
 [crate.kas]
 name = "KAS"
-description = "The toolKit Abstraction System leverages generics and macros to compose widgets with encapsulated user data, provides a powerful event-handling model and scales to at least 100'000 widgets per window."
 tags = [
   "winit",
   "webgpu",
@@ -254,8 +249,7 @@ tags = [
 ]
 
 [crate.gtk]
-name = "GTK"
-description = "Rust bindings and wrappers for GLib, GDK 3, GTK+ 3 and Cairo."
+name = "GTK 3"
 docs = "https://gtk-rs.org/docs-src/"
 tags = [
   "bindings",
