@@ -15,15 +15,14 @@
 # # Location of the crate's code repository.
 # #
 # # Defaults to what is specified on crates.io.
-# repo = "https://mycrate.com/git"
+# repo = "https://domain.invalid/mycrate/git"
 # # Location of the crate's documentation.
 # #
 # # Defaults to what is specified on crates.io, or otherwise to docs.rs.
-# docs = "https://docs.rs/mycrate"
+# docs = "https://domain.invalid/mycrate/docs"
 
 [crate.gemgui]
 name = "GemGui"
-docs = "https://docs.rs/gemgui/latest/gemgui/"
 
 [crate.gtk4]
 name = "GTK 4"
@@ -33,7 +32,6 @@ tags = [
 ]
 
 [crate.rui]
-docs = "https://docs.rs/rui/"
 tags = [
   "winit",
   "ios",
@@ -43,21 +41,17 @@ tags = [
 
 [crate.dominator]
 name = "Dominator"
-docs = "https://docs.rs/dominator/latest/dominator/"
 
 [crate.dioxus]
 name = "Dioxus"
 description = "Elegant React-like library for building user interfaces for desktop, web, mobile, SSR, liveview, and more."
-docs = "https://docs.rs/dioxus/latest/dioxus/"
 
 [crate.gladis]
-docs = "https://docs.rs/gladis"
 tags = [
   "gtk",
 ]
 
 [crate.flutter_rust_bridge]
-docs = "https://github.com/fzyzcjy/flutter_rust_bridge"
 tags = [
   "bindings",
 ]
@@ -82,7 +76,6 @@ tags = [
 [crate.winsafe]
 name = "WinSafe"
 description = "Win32 GUI and related APIs in safe, idiomatic Rust."
-docs = "https://docs.rs/winsafe"
 tags = [
   "bindings",
   "winapi",
@@ -102,7 +95,6 @@ skip-crates-io = true
 name = "Slint"
 repo = "https://github.com/slint-ui/slint"
 description = "Slint is a toolkit to efficiently develop fluid graphical user interfaces for any display: embedded devices and desktop applications. It comes with a fast OpenGL renderer, a designer-friendly markup language and is written in Rust."
-docs = "https://docs.rs/slint/"
 tags = [
   "proc-macro",
   "winit",
@@ -123,7 +115,6 @@ tags = [
 ]
 
 [crate.lvgl]
-docs = "https://github.com/rafaelcaricio/lvgl-rs"
 tags = [
   "bindings",
   "embedded",
@@ -131,7 +122,6 @@ tags = [
 
 [crate.egui]
 description = "Highly portable immediate mode GUI library in pure Rust"
-docs = "https://docs.rs/egui"
 tags = [
   "immediate",
 ]
@@ -181,7 +171,6 @@ tags = [
 [crate.kas]
 name = "KAS"
 description = "The toolKit Abstraction System leverages generics and macros to compose widgets with encapsulated user data, provides a powerful event-handling model and scales to at least 100'000 widgets per window."
-docs = "https://docs.rs/kas"
 tags = [
   "winit",
   "webgpu",
@@ -193,14 +182,12 @@ name = "Iced"
 description = "A renderer-agnostic GUI library for Rust focused on simplicity and type-safety. Inspired by Elm."
 
 [crate.core-foundation]
-docs = "https://docs.rs/core-foundation/"
 tags = [
   "bindings",
   "macos",
 ]
 
 [crate.cacao]
-docs = "https://docs.rs/cacao/"
 tags = [
   "macos",
   "ios",
@@ -220,7 +207,6 @@ tags = [
 
 [crate.webrender]
 name = "WebRender"
-docs = "https://doc.servo.org/webrender/index.html"
 tags = [
   "webrender",
 ]
@@ -244,7 +230,6 @@ tags = [
 
 [crate.qmetaobject]
 description = "A framework empowering everyone to create Qt/QML applications with Rust. It does so by building QMetaObjects at compile time, registering QML types (optionally via exposing QQmlExtensionPlugins) and providing idiomatic wrappers."
-docs = "https://docs.rs/qmetaobject/"
 tags = [
   "proc-macro",
   "bindings",
