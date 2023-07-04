@@ -11,6 +11,30 @@ below.
 Add the crate to the `ecosystem.toml` file using the keys documented therein,
 and open a pull request.
 
+TODO...
+
+The allowed keys are as follows:
+
+```toml
+# A crate on crates.io.
+[crates.my-crate]
+# The name of the crate. Defaults to the crate name, but may be capitalized
+# or named differently if desired.
+name = "MyCrate"
+# Any tags/categories that may be relevant about the crate.
+tags = ["tag1", "tag2"]
+# A description of the crate. Defaults to the description on crates.io.
+description = "A crate to do stuff"
+# Location of the crate's code repository.
+#
+# Defaults to what is specified on crates.io.
+repo = "https://domain.invalid/mycrate/git"
+# Location of the crate's documentation.
+#
+# Defaults to what is specified on crates.io, or otherwise to docs.rs.
+docs = "https://domain.invalid/mycrate/docs"
+```
+
 For crates on crates.io, you should usually only include `name` and `tags`,
 and leave all other fields blank. The remaining fields will be populated with
 the crate's own defaults, which are written and updated by the crate
